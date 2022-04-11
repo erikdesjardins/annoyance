@@ -2353,10 +2353,10 @@
       (reference "D_PWR_IND1") (unit 1) (value "LED") (footprint "LED_THT:LED_D5.0mm")
     )
     (path "/36ee2fec-1e0e-43f4-ad90-ac6cd91e2a0a"
-      (reference "J1") (unit 1) (value "Barrel_Jack") (footprint "Connector_Wire:SolderWire-0.1sqmm_1x02_P3.6mm_D0.4mm_OD1mm")
+      (reference "J1") (unit 1) (value "Barrel_Jack") (footprint "Connector_Wire:SolderWire-1sqmm_1x02_P5.4mm_D1.4mm_OD2.7mm")
     )
     (path "/86dc24e8-ef98-4663-a9f1-d47218f98a0d"
-      (reference "J2") (unit 1) (value "AudioJack2") (footprint "Connector_Wire:SolderWire-0.1sqmm_1x02_P3.6mm_D0.4mm_OD1mm")
+      (reference "J2") (unit 1) (value "AudioJack2") (footprint "Connector_Wire:SolderWire-1sqmm_1x02_P5.4mm_D1.4mm_OD2.7mm")
     )
     (path "/6edf9e06-e577-4475-af68-ba948588eb9e"
       (reference "Q5") (unit 1) (value "BC547") (footprint "Package_TO_SOT_THT:TO-92_Inline")
@@ -2392,7 +2392,7 @@
       (reference "R16") (unit 1) (value "10k") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
     )
     (path "/59d2028b-0acc-4e48-ac18-54b636a1f312"
-      (reference "RV_PULSE_WIDTH1") (unit 1) (value "10k") (footprint "Potentiometer_THT:Potentiometer_ACP_CA14-H4_Horizontal")
+      (reference "RV_PULSE_WIDTH1") (unit 1) (value "10k") (footprint "Connector_Wire:SolderWire-1sqmm_1x03_P5.4mm_D1.4mm_OD2.7mm")
     )
     (path "/a868372a-3c64-4e6f-b8b7-e0101ef69ef1"
       (reference "R_OUT1") (unit 1) (value "400") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
