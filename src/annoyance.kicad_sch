@@ -1704,7 +1704,7 @@
     (property "Value" "ICM7555xP" (id 1) (at 198.8694 105.41 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Package_DIP:DIP-8_W7.62mm" (id 2) (at 213.36 125.73 0)
+    (property "Footprint" "" (id 2) (at 213.36 125.73 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "http://www.intersil.com/content/dam/Intersil/documents/icm7/icm7555-56.pdf" (id 3) (at 218.44 125.73 0)
@@ -2320,43 +2320,43 @@
       (reference "#PWR0103") (unit 1) (value "GND") (footprint "")
     )
     (path "/c651add7-a1af-4016-a2e9-e96e365cdf55"
-      (reference "C11") (unit 1) (value "10u") (footprint "")
+      (reference "C11") (unit 1) (value "10u") (footprint "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm")
     )
     (path "/96d21377-5fea-4d33-9a51-b52f21adfdb0"
-      (reference "C12") (unit 1) (value "100n") (footprint "")
+      (reference "C12") (unit 1) (value "100n") (footprint "Capacitor_THT:C_Rect_L7.2mm_W2.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2")
     )
     (path "/5c2a131f-9879-403e-b96c-c1e1ff18abe0"
-      (reference "C13") (unit 1) (value "10n") (footprint "")
+      (reference "C13") (unit 1) (value "10n") (footprint "Capacitor_THT:C_Rect_L7.2mm_W2.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2")
     )
     (path "/b677e421-a3c6-48f1-bb68-79225f7e1fdd"
-      (reference "C14") (unit 1) (value "100n") (footprint "")
+      (reference "C14") (unit 1) (value "100n") (footprint "Capacitor_THT:C_Rect_L7.2mm_W2.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2")
     )
     (path "/b8f338b4-2cf8-40f4-86e6-fe0828e795a8"
-      (reference "C15") (unit 1) (value "10n") (footprint "")
+      (reference "C15") (unit 1) (value "10n") (footprint "Capacitor_THT:C_Rect_L7.2mm_W2.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2")
     )
     (path "/c98d2591-e053-4d5a-a675-58fd45b7d956"
-      (reference "C16") (unit 1) (value "100n") (footprint "")
+      (reference "C16") (unit 1) (value "100n") (footprint "Capacitor_THT:C_Rect_L7.2mm_W2.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2")
     )
     (path "/b528caf5-494c-4331-906b-2f184efd9ab7"
-      (reference "C17") (unit 1) (value "22n") (footprint "")
+      (reference "C17") (unit 1) (value "22n") (footprint "Capacitor_THT:C_Rect_L7.2mm_W2.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2")
     )
     (path "/6c3c3323-856e-4c21-8714-c7505002ce16"
-      (reference "C_PWR_SMOOTH1") (unit 1) (value "100u") (footprint "")
+      (reference "C_PWR_SMOOTH1") (unit 1) (value "100u") (footprint "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm")
     )
     (path "/db75facd-72e8-4cf7-a354-05c57469426b"
-      (reference "D_OUT1") (unit 1) (value "LED") (footprint "")
+      (reference "D_OUT1") (unit 1) (value "LED") (footprint "LED_THT:LED_D5.0mm")
     )
     (path "/05272178-2f88-440a-ab91-e60e5c3339e7"
-      (reference "D_OUT_IND1") (unit 1) (value "LED") (footprint "")
+      (reference "D_OUT_IND1") (unit 1) (value "LED") (footprint "LED_THT:LED_D5.0mm")
     )
     (path "/5726b979-10c5-47d8-a110-a7b62a65f9af"
-      (reference "D_PWR_IND1") (unit 1) (value "LED") (footprint "")
+      (reference "D_PWR_IND1") (unit 1) (value "LED") (footprint "LED_THT:LED_D5.0mm")
     )
     (path "/36ee2fec-1e0e-43f4-ad90-ac6cd91e2a0a"
-      (reference "J1") (unit 1) (value "Barrel_Jack") (footprint "")
+      (reference "J1") (unit 1) (value "Barrel_Jack") (footprint "Connector_Wire:SolderWire-0.1sqmm_1x02_P3.6mm_D0.4mm_OD1mm")
     )
     (path "/86dc24e8-ef98-4663-a9f1-d47218f98a0d"
-      (reference "J2") (unit 1) (value "AudioJack2") (footprint "")
+      (reference "J2") (unit 1) (value "AudioJack2") (footprint "Connector_Wire:SolderWire-0.1sqmm_1x02_P3.6mm_D0.4mm_OD1mm")
     )
     (path "/6edf9e06-e577-4475-af68-ba948588eb9e"
       (reference "Q5") (unit 1) (value "BC547") (footprint "Package_TO_SOT_THT:TO-92_Inline")
@@ -2365,52 +2365,52 @@
       (reference "Q6") (unit 1) (value "BC547") (footprint "Package_TO_SOT_THT:TO-92_Inline")
     )
     (path "/336a7b8d-2d25-45d4-9ae3-c5ff3817adc0"
-      (reference "R8") (unit 1) (value "2k2") (footprint "")
+      (reference "R8") (unit 1) (value "2k2") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
     )
     (path "/c9234866-573a-4cee-ab37-60efc380f408"
-      (reference "R9") (unit 1) (value "2k2") (footprint "")
+      (reference "R9") (unit 1) (value "2k2") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
     )
     (path "/6ceb3f14-5efe-4ab4-a538-82c6d8dea707"
-      (reference "R10") (unit 1) (value "22k") (footprint "")
+      (reference "R10") (unit 1) (value "22k") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
     )
     (path "/e181b4d2-cc6e-4b9e-bc34-0a11cfbd2ca1"
-      (reference "R11") (unit 1) (value "100") (footprint "")
+      (reference "R11") (unit 1) (value "100") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
     )
     (path "/09cf240f-9626-4b71-960f-ca25ac4f2a2f"
-      (reference "R12") (unit 1) (value "1k") (footprint "")
+      (reference "R12") (unit 1) (value "1k") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
     )
     (path "/830ba1d3-66c9-43cf-8aea-1cf51a06f46f"
-      (reference "R13") (unit 1) (value "1k") (footprint "")
+      (reference "R13") (unit 1) (value "1k") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
     )
     (path "/c0176692-9833-4252-8309-f242fa1f2ce8"
-      (reference "R14") (unit 1) (value "100") (footprint "")
+      (reference "R14") (unit 1) (value "100") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
     )
     (path "/b66692da-bbeb-4c6a-9e0b-fc5520a22914"
-      (reference "R15") (unit 1) (value "1k") (footprint "")
+      (reference "R15") (unit 1) (value "1k") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
     )
     (path "/70250b1f-96e0-40ff-9aa7-6d71bae54041"
-      (reference "R16") (unit 1) (value "10k") (footprint "")
+      (reference "R16") (unit 1) (value "10k") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
     )
     (path "/59d2028b-0acc-4e48-ac18-54b636a1f312"
-      (reference "RV_PULSE_WIDTH1") (unit 1) (value "10k") (footprint "")
+      (reference "RV_PULSE_WIDTH1") (unit 1) (value "10k") (footprint "Potentiometer_THT:Potentiometer_ACP_CA14-H4_Horizontal")
     )
     (path "/a868372a-3c64-4e6f-b8b7-e0101ef69ef1"
-      (reference "R_OUT1") (unit 1) (value "400") (footprint "")
+      (reference "R_OUT1") (unit 1) (value "400") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
     )
     (path "/a91641b5-09f0-4dfe-afc4-08ca53819e29"
-      (reference "R_PWR_IN1") (unit 1) (value "10") (footprint "")
+      (reference "R_PWR_IN1") (unit 1) (value "10") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
     )
     (path "/9bd73a4f-0f6f-4667-8717-a4d8ec9e3907"
-      (reference "R_PWR_IND1") (unit 1) (value "1k") (footprint "")
+      (reference "R_PWR_IND1") (unit 1) (value "1k") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
     )
     (path "/e4400a25-76e5-4e1f-82ce-8efc8e7564b8"
-      (reference "U1") (unit 1) (value "RC4580") (footprint "")
+      (reference "U1") (unit 1) (value "RC4580") (footprint "Package_DIP:DIP-8_W7.62mm_Socket")
     )
     (path "/bdf33d2d-fcb0-4304-8028-32f9effa2b51"
-      (reference "U1") (unit 3) (value "RC4580") (footprint "")
+      (reference "U1") (unit 3) (value "RC4580") (footprint "Package_DIP:DIP-8_W7.62mm_Socket")
     )
     (path "/3a88c41d-5b0f-45ad-99d5-f01454c1786e"
-      (reference "U2") (unit 1) (value "ICM7555xP") (footprint "Package_DIP:DIP-8_W7.62mm")
+      (reference "U2") (unit 1) (value "ICM7555xP") (footprint "Package_DIP:DIP-8_W7.62mm_Socket")
     )
   )
 )
