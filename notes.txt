@@ -1,0 +1,10 @@
+# Timing
+
+The "official" transmitter produces:
+  @ 1kHz, min power: ~15us pulse (66kHz, ~1.5% duty cycle)
+  @ 1kHz, max power: ~30us pulse (33kHz, ~3% duty cycle)
+
+For this device, if we're targeting say a max 10% duty cycle, we want:
+  @ 20kHz: 5us pulse (200kHz, 10% duty cycle)
+
+...and we need to make sure the timer is limited to triggering at most once every 50us (20kHz).
