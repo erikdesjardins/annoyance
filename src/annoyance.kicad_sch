@@ -2381,7 +2381,7 @@
       (reference "R_OUT1") (unit 1) (value "500") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
     )
     (path "/33098026-5c02-4451-ab1a-6340d38d936c"
-      (reference "R_OUT_PUP_1") (unit 1) (value "10k") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
+      (reference "R_OUT_PUP_1") (unit 1) (value "4.7k") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
     )
     (path "/a91641b5-09f0-4dfe-afc4-08ca53819e29"
       (reference "R_PWR_IN1") (unit 1) (value "10") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
