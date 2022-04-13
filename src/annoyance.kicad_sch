@@ -2,7 +2,7 @@
 
   (uuid 9538e4ed-27e6-4c37-b989-9859dc0d49e8)
 
-  (paper "A4")
+  (paper "USLetter")
 
   (lib_symbols
     (symbol "Amplifier_Operational:RC4580" (pin_names (offset 0.127)) (in_bom yes) (on_board yes)
