@@ -1760,6 +1760,11 @@
     (effects (font (size 0.635 0.635)) (justify left bottom))
     (uuid 6733e1a4-713d-46d4-878f-97f468d55c73)
   )
+  (text "Component Notes:\n- resistors in amplification block must be well matched (<= 1% tolerance)\n- pF caps are ceramic\n- nF caps are film (or ceramic, but we want to avoid microphone effects)\n- uF caps are aluminum polymer or electrolytic"
+    (at 161.29 185.42 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 6bc60f3d-3534-4c2e-b989-672ad6678950)
+  )
   (text "Pulse Generation\n" (at 149.86 17.78 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 6d550677-d88c-4eb5-91e1-285dc70db1f1)
@@ -2115,7 +2120,7 @@
     (property "Reference" "C4" (id 0) (at 137.16 184.1499 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "0.1u" (id 1) (at 137.16 186.6899 0)
+    (property "Value" "" (id 1) (at 137.16 186.6899 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Footprint" "Capacitor_THT:C_Rect_L7.2mm_W2.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2" (id 2) (at 132.3848 181.61 0)
@@ -2674,7 +2679,7 @@
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid c292a842-5e4d-4e4f-a5c3-266240187495)
     (property "Reference" "C5" (id 0) (at 134.62 143.51 90))
-    (property "Value" "0.1u" (id 1) (at 134.62 146.05 90))
+    (property "Value" "" (id 1) (at 134.62 146.05 90))
     (property "Footprint" "Capacitor_THT:C_Rect_L7.2mm_W2.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2" (id 2) (at 138.43 150.1648 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -2895,19 +2900,19 @@
       (reference "C3") (unit 1) (value "10n") (footprint "Capacitor_THT:C_Rect_L7.2mm_W2.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2")
     )
     (path "/37062f8a-3efd-4fb0-b336-bb39b84fccd9"
-      (reference "C4") (unit 1) (value "0.1u") (footprint "Capacitor_THT:C_Rect_L7.2mm_W2.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2")
+      (reference "C4") (unit 1) (value "100n") (footprint "Capacitor_THT:C_Rect_L7.2mm_W2.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2")
     )
     (path "/c292a842-5e4d-4e4f-a5c3-266240187495"
-      (reference "C5") (unit 1) (value "0.1u") (footprint "Capacitor_THT:C_Rect_L7.2mm_W2.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2")
+      (reference "C5") (unit 1) (value "100n") (footprint "Capacitor_THT:C_Rect_L7.2mm_W2.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2")
     )
     (path "/45eb6d71-f465-4a4e-95e1-bbe4e2bb4b77"
-      (reference "C6") (unit 1) (value "0.1u") (footprint "Capacitor_THT:C_Rect_L7.2mm_W2.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2")
+      (reference "C6") (unit 1) (value "100n") (footprint "Capacitor_THT:C_Rect_L7.2mm_W2.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2")
     )
     (path "/109bda6e-8c50-40d4-afa0-0036e36831bd"
       (reference "C7") (unit 1) (value "4.7n") (footprint "Capacitor_THT:C_Rect_L7.2mm_W2.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2")
     )
     (path "/c98d2591-e053-4d5a-a675-58fd45b7d956"
-      (reference "C8") (unit 1) (value "0.1u") (footprint "Capacitor_THT:C_Rect_L7.2mm_W2.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2")
+      (reference "C8") (unit 1) (value "100n") (footprint "Capacitor_THT:C_Rect_L7.2mm_W2.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2")
     )
     (path "/b528caf5-494c-4331-906b-2f184efd9ab7"
       (reference "C9") (unit 1) (value "10n") (footprint "Capacitor_THT:C_Rect_L7.2mm_W2.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2")
