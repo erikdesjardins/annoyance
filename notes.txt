@@ -8,3 +8,8 @@ For this device, if we're targeting say a max 10% duty cycle, we want:
   @ 20kHz: 5us pulse (200kHz, 10% duty cycle)
 
 ...and we need to make sure the timer is limited to triggering at most once every 50us (20kHz).
+
+# Design
+
+If redoing this, instead of building one out of opamps, consider using an integrated, single-supply instrumentation amplifier, like the INA128P or AD623BNZ.
+Note, in that case, driving the reference terminal may be a problem--it should be low impedance, but we'd need an additional buffer for that (instead of just a resistor voltage divider) which somewhat defeats the benefits of using a single-IC amplifier. But it's unclear how much of an effect this has; for our usage, it may be fine to use a high-impedance voltage divider at the reference terminal.
