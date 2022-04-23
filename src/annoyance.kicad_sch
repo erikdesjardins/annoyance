@@ -1771,7 +1771,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 064b1ac3-3cfc-46d3-9ff0-9a7b1624fa3d)
   )
-  (text "Sizing: does not affect gain, but should be\nsame as above to minimize bias current\nPins: dual-gang with above pot"
+  (text "Sizing: does not affect gain\n(same as above to minimize bias current)\nPins: dual-gang with above pot"
     (at 87.63 87.63 0)
     (effects (font (size 0.635 0.635)) (justify left bottom))
     (uuid 08f6bc93-7613-4d2f-b751-078820e3a28d)
