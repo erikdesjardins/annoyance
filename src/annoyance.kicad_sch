@@ -2015,7 +2015,7 @@
     (effects (font (size 0.635 0.635)) (justify left bottom))
     (uuid 9b4c5ed5-dabb-4885-a9ac-b9bb1906f71e)
   )
-  (text "Sizing: 1-10x gain in second stage\n(gain = (RV_G+R_C)/R_B)\nPins: resistance LOW @ 0 pos."
+  (text "Sizing: 1-11x gain in second stage\n(gain = (RV_G+R_C)/R_B)\nPins: resistance LOW @ 0 pos."
     (at 101.6 39.37 0)
     (effects (font (size 0.635 0.635)) (justify left bottom))
     (uuid a7a1cbbc-4991-49f8-ac8f-e22c0d451533)
