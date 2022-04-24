@@ -2179,8 +2179,8 @@
     (effects (font (size 0.635 0.635)) (justify left bottom))
     (uuid 1b73de2d-8969-4079-8d8d-760276714c91)
   )
-  (text "Sizing: ~0.5us pulse on falling edge\n(should be less than min pulse width)"
-    (at 74.93 160.02 0)
+  (text "Sizing: ~0.5us pulse on falling edge\n(must be less than min pulse width)"
+    (at 77.47 156.21 0)
     (effects (font (size 0.635 0.635)) (justify left bottom))
     (uuid 269721f3-efd1-466b-85d1-711a0218fe1a)
   )
@@ -2204,7 +2204,7 @@
     (effects (font (size 0.635 0.635)) (justify left bottom))
     (uuid 680ecd8e-bb7a-4956-9f3a-9ccfd3968ad9)
   )
-  (text "Component Notes:\n- TLC274 is actually TLC074 (the single-supply variant)\n- output LED is actually IF-E96E (fiber optic transmitter)\n- resistors in amplification block must be well matched (<= 1% tolerance)\n- pF caps are ceramic; otherwise\n- bipolar caps are film (not ceramic to avoid microphone effects); and\n- polarized caps are aluminum polymer"
+  (text "Component Notes:\n- TLC274 is actually TLC074\n- output LED is actually IF-E96E (fiber optic transmitter)\n- resistors in amplification block must be well matched (<= 1% tolerance)\n- pF caps are ceramic; otherwise\n- bipolar caps are film (not ceramic to avoid microphone effects); and\n- polarized caps are aluminum polymer"
     (at 160.02 186.69 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 6bc60f3d-3534-4c2e-b989-672ad6678950)
