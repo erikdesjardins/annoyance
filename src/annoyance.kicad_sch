@@ -2001,7 +2001,7 @@
     (effects (font (size 0.635 0.635)) (justify left bottom))
     (uuid 6679638f-cdac-4913-bc63-6c9521a7d455)
   )
-  (text "Sizing: ~15kHz\nlow-pass filter" (at 55.88 66.04 0)
+  (text "Sizing: ~30kHz\nlow-pass filter" (at 55.88 66.04 0)
     (effects (font (size 0.635 0.635)) (justify left bottom))
     (uuid 66ebc923-980d-4d0d-a6df-5c60f45c9bd2)
   )
@@ -2947,7 +2947,7 @@
     (property "Reference" "C2" (id 0) (at 60.96 59.6899 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "0.47n" (id 1) (at 60.96 62.2299 0)
+    (property "Value" "" (id 1) (at 60.96 62.2299 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Footprint" "Capacitor_THT:C_Rect_L7.2mm_W2.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2" (id 2) (at 65.7352 57.15 0)
@@ -3287,7 +3287,7 @@
       (reference "C1") (unit 1) (value "100n") (footprint "Capacitor_THT:C_Rect_L7.2mm_W2.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2")
     )
     (path "/a225ed9b-56f6-45f9-b11e-a50bc6572e0f"
-      (reference "C2") (unit 1) (value "0.47n") (footprint "Capacitor_THT:C_Rect_L7.2mm_W2.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2")
+      (reference "C2") (unit 1) (value "1n") (footprint "Capacitor_THT:C_Rect_L7.2mm_W2.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2")
     )
     (path "/109bda6e-8c50-40d4-afa0-0036e36831bd"
       (reference "C3") (unit 1) (value "1n") (footprint "Capacitor_THT:C_Rect_L7.2mm_W2.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2")
