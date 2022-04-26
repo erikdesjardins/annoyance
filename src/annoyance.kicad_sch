@@ -1979,7 +1979,7 @@
     (effects (font (size 0.635 0.635)) (justify left bottom))
     (uuid 0ad29f6d-db37-443e-885a-a4bcf5e86d83)
   )
-  (text "Sizing: ~0.5us pulse on falling edge\n(must be less than min pulse width)"
+  (text "Sizing: 1us pulse on falling edge\n(shortest pulse that will be detected)"
     (at 81.28 156.21 0)
     (effects (font (size 0.635 0.635)) (justify left bottom))
     (uuid 269721f3-efd1-466b-85d1-711a0218fe1a)
@@ -3260,7 +3260,7 @@
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid fecb7b70-460d-4282-acd0-992b7bfd9559)
     (property "Reference" "C4" (id 0) (at 78.74 144.78 90))
-    (property "Value" "0.47n" (id 1) (at 78.74 147.32 90))
+    (property "Value" "" (id 1) (at 78.74 147.32 90))
     (property "Footprint" "Capacitor_THT:C_Rect_L7.2mm_W2.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2" (id 2) (at 82.55 151.4348 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -3322,7 +3322,7 @@
       (reference "C3") (unit 1) (value "0.47n") (footprint "Capacitor_THT:C_Rect_L7.2mm_W2.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2")
     )
     (path "/fecb7b70-460d-4282-acd0-992b7bfd9559"
-      (reference "C4") (unit 1) (value "0.47n") (footprint "Capacitor_THT:C_Rect_L7.2mm_W2.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2")
+      (reference "C4") (unit 1) (value "1n") (footprint "Capacitor_THT:C_Rect_L7.2mm_W2.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2")
     )
     (path "/046ded3c-f886-4669-a62e-c370e725e2b4"
       (reference "C5") (unit 1) (value "100n") (footprint "Capacitor_THT:C_Rect_L7.2mm_W2.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2")
