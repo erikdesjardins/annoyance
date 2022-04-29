@@ -1972,7 +1972,7 @@
     (effects (font (size 0.635 0.635)) (justify left bottom))
     (uuid 4a9da700-4822-4e3b-95dc-ba49df3a3caa)
   )
-  (text "Sizing: ~3-20x gain in first stage\n(gain = 1+2R_F/R_G)\nPins: resistance HIGH @ 0 pos.\nTaper: linear (should be reverse log, with reversed pins)"
+  (text "Sizing: ~3-20x gain in first stage\n(gain = 1+2R_F/R_G)\nPins: resistance HIGH @ 0 pos.\nTaper: linear (results in hyperbolic gain)"
     (at 101.6 59.69 0)
     (effects (font (size 0.635 0.635)) (justify left bottom))
     (uuid 60f45767-012f-4b4f-a08f-ba1ed77c06f8)
